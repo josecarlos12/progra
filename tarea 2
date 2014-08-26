@@ -1,0 +1,15 @@
+// jiu.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+int main (void)
+{float A,R,Pi;
+Pi=3.1416;
+printf("Digite el radio: ");
+scanf("%f",&R);
+A=Pi*(R*R);
+printf("/n-->El area es :%f/n",A);
+
+	return 0;
+}
